@@ -22,6 +22,7 @@ Actually it's just a notebook for keeping down some working experience.
 
 - [CS-Nodes 计算机网络](https://cyc2018.github.io/CS-Notes/#/notes/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E7%9B%AE%E5%BD%951)
 - 计算机网络 第七版 - 谢希仁等
+- 图解HTTP - 上野宣
 - [JavaGuide 计算机网络](https://github.com/Snailclimb/JavaGuide/blob/master/docs/network/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md)
 - [JavaGuide 搞定计算机网络面试](https://juejin.im/post/6844903662838349838)
 
