@@ -4,9 +4,9 @@
 
 ## content / 目录
 
-### [概述](https://github.com/tomoya06/web-developer-guidance/issues/2)
+### 一、[概述](https://github.com/tomoya06/web-developer-guidance/issues/2)
 
-### [OS / 操作系统](https://github.com/tomoya06/web-developer-guidance/issues/5)
+### 二、[OS / 操作系统](https://github.com/tomoya06/web-developer-guidance/issues/5)
 
 本节参考：
 
@@ -14,7 +14,7 @@
 - [JavaGuide 操作系统总结](https://github.com/Snailclimb/JavaGuide/blob/master/docs/operating-system/basis.md)
 - 计算机操作系统 第三版 - 汤小丹等
 
-### [Network / 计算机网络 (BUILDING / 建设中)](https://github.com/tomoya06/web-developer-guidance/issues/6)
+### 三、[Network / 计算机网络 (BUILDING / 建设中)](https://github.com/tomoya06/web-developer-guidance/issues/6)
 
 本节参考：
 
@@ -24,13 +24,15 @@
 - [JavaGuide 计算机网络](https://github.com/Snailclimb/JavaGuide/blob/master/docs/network/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md)
 - [JavaGuide 搞定计算机网络面试](https://juejin.im/post/6844903662838349838)
 
-### 前端基础
+### 四、前端基础
 
-#### [JavaScript基础](https://github.com/tomoya06/web-developer-guidance/issues/10)
-#### [浏览器相关基础](https://github.com/tomoya06/web-developer-guidance/issues/11)
-#### [JavaScript进阶](https://github.com/tomoya06/web-developer-guidance/issues/12)
-#### [浏览器渲染机制](https://github.com/tomoya06/web-developer-guidance/issues/13)
-#### [【外部连接】性能优化](https://yuchengkai.cn/docs/frontend/performance.html)
+#### 1. [JavaScript基础](https://github.com/tomoya06/web-developer-guidance/issues/10)
+#### 2. [浏览器相关基础](https://github.com/tomoya06/web-developer-guidance/issues/11)
+#### 3. [JavaScript进阶](https://github.com/tomoya06/web-developer-guidance/issues/12)
+#### 4. [浏览器渲染机制](https://github.com/tomoya06/web-developer-guidance/issues/13)
+#### 5. [【外部连接】性能优化](https://yuchengkai.cn/docs/frontend/performance.html)
+#### 6. CSS（TBD）
+#### 6. Vue（TBD）
 
 本节参考：
 
@@ -38,11 +40,9 @@
 - [前端工匠GitHub博客](https://github.com/ljianshu/Blog)
 - MDN
 
-#### Vue （TBD）
 
+### 四、SQL / 数据库 (TBD)
+### 五、中间件（TBD）
 
-### SQL / 数据库 (TBD)
-### 中间件（TBD）
-### 
 
 
