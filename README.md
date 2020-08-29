@@ -2,11 +2,11 @@
 
 我自己的Web工程师开发技术总结
 
-## content / 目录
+## 目录
 
 ### 一、[概述](https://github.com/tomoya06/web-developer-guidance/issues/2)
 
-### 二、[OS / 操作系统](https://github.com/tomoya06/web-developer-guidance/issues/5)
+### 二、[操作系统](https://github.com/tomoya06/web-developer-guidance/issues/5)
 
 本节参考：
 
@@ -14,7 +14,7 @@
 - [JavaGuide 操作系统总结](https://github.com/Snailclimb/JavaGuide/blob/master/docs/operating-system/basis.md)
 - 计算机操作系统 第三版 - 汤小丹等
 
-### 三、[Network / 计算机网络 (BUILDING / 建设中)](https://github.com/tomoya06/web-developer-guidance/issues/6)
+### 三、[计算机网络](https://github.com/tomoya06/web-developer-guidance/issues/6)
 
 本节参考：
 
