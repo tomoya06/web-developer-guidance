@@ -6,3 +6,4 @@ Actually it's just a notebook for keeping down some working experience.
 
 转移到gitbook编写。[在这里](https://peng4766.gitbook.io/developer/)
 
+Issue作为TODO和编写计划记录。[在这里](https://github.com/tomoya06/web-developer-guidance/issues/2)
