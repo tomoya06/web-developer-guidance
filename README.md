@@ -31,18 +31,38 @@
 #### 3. [JavaScript进阶](https://github.com/tomoya06/web-developer-guidance/issues/12)
 #### 4. [浏览器渲染机制](https://github.com/tomoya06/web-developer-guidance/issues/13)
 #### 5. [【外部连接】性能优化](https://yuchengkai.cn/docs/frontend/performance.html)
+#### 6. [Vue](https://github.com/tomoya06/web-developer-guidance/issues/14)
 #### 6. CSS（TBD）
-#### 6. Vue（TBD）
 
 本节参考：
 
 - [前端进阶之道](https://yuchengkai.cn/)
 - [前端工匠GitHub博客](https://github.com/ljianshu/Blog)
 - MDN
+- [小册-剖析Vue内部运行机制](https://juejin.im/book/6844733705089449991)
+- [小册-前端面试之道](https://juejin.im/book/6844733763675488269)
 
+### 五、Java、Python基础
 
-### 四、SQL / 数据库 (TBD)
+#### 1. Java基础
+#### 2. Python基础
+
+本节参考：
+
+- [CS-Nodes Java基础](https://cyc2018.github.io/CS-Notes/#/?id=%e2%98%95%ef%b8%8f-java)
+- [关于Python的面试题-python语言特性](https://github.com/taizilongxu/interview_python#python%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7)
+- [廖雪峰-Python教程](https://www.liaoxuefeng.com/wiki/1016959663602400)
+
+### 六、SQL / 数据库 (TBD)
+
+本节参考：
+
+- [掘金小册-MySQL是怎样运行的](https://juejin.im/book/6844733769996304392)
+
+### 七、数据结构（TBD）
+
 ### 五、中间件（TBD）
 
+本节参考
 
 
