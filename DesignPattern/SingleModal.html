@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <h1>hello world</h1>
+    <button id='open'>打开弹框</button>
+    <button id='close'>关闭弹框</button>
+  </div>
+  <style>
+    #modal {
+      position: fixed;
+      left: 30%;
+      right: 30%;
+      top: 20px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 16px;
+      border: 1px solid black;
+    }
+  </style>
+</body>
+<script>
+  const Modal = (function() {
+    let modal = null;
+
+    return function() {
+      if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'modal';
+        modal.style.display = 'none';
+        modal.innerText = 'Hello Modal';
+        document.body.appendChild(modal);
+      }
+      return modal;
+    }
+  })()
+
+  document.getElementById('open').addEventListener('click', function() {
+    const modal = new Modal();
+    modal.style.display = 'block';
+  })
+
+  document.getElementById('close').addEventListener('click', function() {
+    const modal = new Modal();
+    modal.style.display = 'none';
+  })
+</script>
+</html>
