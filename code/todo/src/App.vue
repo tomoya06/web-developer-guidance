@@ -1,7 +1,13 @@
 <template>
   <div id="app">
     <div class="app-input">
-      <input type="text" v-model="keyword" placeholder="Find Or Create a TODO">
+      <input
+        type="text" v-model="keyword"
+        placeholder="Find Or Create a TODO"
+        @compositionstart="comstart"
+        @compositionend="comend"
+        @input="inputend"
+      >
       <button @click="createTodo" value="">CREATE</button>
     </div>
     <div class="app-todolist">
@@ -31,6 +37,15 @@ export default {
         this.$store.commit('createTodo', this.keyword);
         this.keyword = '';
       }
+    },
+    comstart(e) {
+      console.log('composition start: ', e.data, e);
+    },
+    comend(e) {
+      console.log('composition end: ', e.data, e);
+    },
+    inputend(e) {
+      console.log('inputinput  end: ', e.data, e);
     },
   },
   computed: {
