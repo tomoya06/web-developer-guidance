@@ -40,6 +40,11 @@ export default new Vuex.Store({
       }
       Vue.set(state.todoList[target], 'editing', !state.todoList[target].editing);
     },
+    bruceAsyncAddTodo(state) {
+      setTimeout(() => {
+        state.todoList.push(new TodoItem('bruce async add!'));
+      },100);
+    }
   },
   getters: {
     findTodo(state) {
@@ -47,6 +52,9 @@ export default new Vuex.Store({
     },
   },
   actions: {
+    bruceAddTodo(ctx) {
+      ctx.state.todoList.push(new TodoItem('create by action'));
+    },
   },
   modules: {
   },

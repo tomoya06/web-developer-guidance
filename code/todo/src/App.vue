@@ -13,6 +13,10 @@
     <div class="app-todolist">
       <todo-list :todoList="findTodo(keyword)"></todo-list>
     </div>
+    <div class="app-test">
+      <button @click="bruceAdd">ADD ANYWAY!</button>
+      <button @click="asyncBruceAdd">ASYNC ADD ANYWAY!</button>
+    </div>
   </div>
 </template>
 
@@ -47,6 +51,12 @@ export default {
     inputend(e) {
       console.log('inputinput  end: ', e.data, e);
     },
+    bruceAdd() {
+      this.$store.dispatch('bruceAddTodo');
+    },
+    asyncBruceAdd() {
+      this.$store.commit('bruceAsyncAddTodo');
+    }
   },
   computed: {
     ...mapGetters([
