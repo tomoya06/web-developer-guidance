@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script>
+    console.log("initial readyState: " + document.readyState);
+
+    document.addEventListener("readystatechange", () =>
+      console.log("readyState: " + document.readyState)
+    );
+    document.addEventListener("DOMContentLoaded", () =>
+      console.log("DOMContentLoaded")
+    );
+
+    window.onload = () => console.log("window onload");
+    document.onload = () => console.log("document onload");
+  </script>
+  <body>
+    <h1>HELLO WORLD</h1>
+    <img id="img" src="https://picsum.photos/200/300" alt="image" />
+  </body>
+  <script>
+    document
+      .getElementById("img")
+      .addEventListener("load", () => console.log("img onload"));
+  </script>
+</html>
