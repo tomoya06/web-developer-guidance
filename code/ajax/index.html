@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <button onclick="handleClick()">CLICK ME</button>
+  </div>
+</body>
+<script>
+  const mockApi = 'https://5f79d82de402340016f93466.mockapi.io/test';
+  function handleClick() {
+    console.log('clicked');
+    // sendRequestWithXML();
+    sendRequestWithFetch();
+  }
+  function sendRequestWithXML() {
+    const httpRequest = new XMLHttpRequest();
+    if (!httpRequest) {
+      alert('not support XMLHttpRequest');
+      return;
+    }
+    httpRequest.onreadystatechange = handleReadyStateChange;
+    httpRequest.open('GET', mockApi);
+    httpRequest.send();
+
+    function handleReadyStateChange() {
+      if (httpRequest.readyState === XMLHttpRequest.DONE) {
+        if (httpRequest.status === 200) {
+          alert(httpRequest.responseText);
+        } else {
+          alert('oops: ', httpRequest.status);
+        }
+      }
+    }
+  }
+
+  function sendRequestWithFetch() {
+    fetch(mockApi)
+      .then(response => {
+        if (response.status === 200) {
+          return response.json();
+        } else {
+          throw new Error(response.status);
+        }
+      })
+      .then(data => {
+        alert(JSON.stringify(data));
+      }).catch(e => {
+        alert('oops: ', e);
+      })
+  }
+</script>
+
+</html>
