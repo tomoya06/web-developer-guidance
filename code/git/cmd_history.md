@@ -11,4 +11,9 @@
 ➜  web-developer-guidance git:(master) git merge dev/gittest
 # --> Updating fa8f11e..c2ef779
 # --> Fast-forward
+
+# merge with merge
+➜  web-developer-guidance git:(dev/gittest2) git commit -a -m 'git: merge'
+➜  web-developer-guidance git:(dev/gittest2) git checkout master
+➜  web-developer-guidance git:(master) git merge -  
 ````
