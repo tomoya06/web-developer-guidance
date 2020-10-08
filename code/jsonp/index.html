@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div><span>hello</span></div>
+</body>
+<script>
+  function jsonp(src, data = {}, callback = 'callback') {
+    data.callback = callback;
+    let params = [];
+    for (let key in data) {
+      params.push(`${key}=${data[key]}`);
+    }
+    const url = `${src}?${params.join('&')}`;
+    const script = document.createElement('script');
+    script.src = url;
+    document.body.appendChild(script);
+    return new Promise((resolve, reject) => {
+      window[callback] = (data) => {
+        try {
+          resolve(data);
+        } catch (e) {
+          reject(e);
+        } finally {
+          script.parentNode.removeChild(script);
+        }
+      }
+    })
+  }
+
+  jsonp('http://localhost:8080/jsonp', { 'hello': 'world' })
+    .then(data => {
+      console.log('jsonp response: ', data);
+    })
+</script>
+
+</html>
