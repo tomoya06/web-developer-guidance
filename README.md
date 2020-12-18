@@ -22,4 +22,9 @@ Actually it's just a notebook for keeping down some engineer experience.
 - Visit [Projects](https://github.com/tomoya06/web-developer-guidance/projects/1) for notes in category
 - Visit [Issues](https://github.com/tomoya06/web-developer-guidance/issues) for all notes
 
+## data structure & algorithm
 
+### leetcode
+
+- Profile 1: Visit [github/leetcode/master](https://github.com/tomoya06/leetcode/tree/master)
+- Profile Hard(Working on it): Visit [github/leetcode/hardhard](https://github.com/tomoya06/leetcode/tree/hardhard)
